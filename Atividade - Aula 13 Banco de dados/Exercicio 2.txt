@@ -1,0 +1,5 @@
+SELECT p.nome, p.preco, SUM(ip.quantidade) AS quantidade
+FROM Produto p
+JOIN ItemPedido ip ON p.id = ip.produto_id
+GROUP BY p.id, p.nome, p.preco 
+ORDER BY quantidade DESC;

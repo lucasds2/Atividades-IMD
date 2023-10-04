@@ -1,0 +1,7 @@
+SELECT p.id, p.nome, p.descricao, p.preco, p.categoria_id
+FROM Produto p
+WHERE p.categoria_id IN (
+  SELECT id
+  FROM Categoria
+  WHERE nome LIKE 'R%'
+);
