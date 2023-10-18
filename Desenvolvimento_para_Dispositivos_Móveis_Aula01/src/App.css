@@ -1,0 +1,22 @@
+/* Estilos globais */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+  }
+  
+  /* Estilos para o componente raiz 'App' */
+  .App {
+    text-align: center;
+    background-color: #fff;
+    padding: 20px;
+  }
+  
+  /* Estilos para um componente específico (exemplo) */
+  .MyComponent {
+    border: 1px solid #ccc;
+    padding: 10px;
+    background-color: #f9f9f9;
+  }
+  
