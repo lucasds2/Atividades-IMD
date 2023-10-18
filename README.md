@@ -1,1 +1,1 @@
-Use npm install nas pastas da atividade de backend para um perfeito funcionamento!
+Atividades feita no curso de Informatica para internet do IMD/UFRN
